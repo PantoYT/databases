@@ -1,0 +1,21 @@
+1. select imie,nazwisko,dzial,pensja from personel order by pensja desc;
+
+2. insert into personel (nazwisko,imie,pensja,data_zatr,zwolniony) values
+("Nawicki","Andrzej",4770,1985-02-09,1);
+*data_zatr nie była w cudzysłowie więc update
+
+update personel set data_zatr "1985-05-03" where imie ="Andrzej"
+
+3. NIE
+
+4. NIE
+
+*Zamaina z zł na euro
+5. select nazwisko,imie,pensja*4.23,dzial,stan from personel where pensja*4.23 > 2000 order by pensja desc;
+
+6.  insert into personel (id_pracown,nazwisko,imie,pensja,data_zatr,zwolniony) values 
+("88-888-8888","Halasa","Wojciech",50000,"2025-11-25",1);
+
+update personel set id_pracown ="99-999-9999" where imie="Andrzej";
+
+7. select nazwisko from klient where nazwisko like "_a%" or nazwisko like "_o%";
