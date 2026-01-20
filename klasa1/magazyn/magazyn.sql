@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 13 Sty 2026, 13:57
+-- Czas generowania: 20 Sty 2026, 12:11
 -- Wersja serwera: 10.4.27-MariaDB
 -- Wersja PHP: 8.1.12
 
@@ -64,7 +64,7 @@ CREATE TABLE `towar` (
 INSERT INTO `towar` (`id`, `nazwa`, `cena`, `ilosc`, `kategoria`) VALUES
 (1, 'kot', 500, 10, 'zwierze'),
 (2, 'pies', 1500, 3, 'zwierze'),
-(3, 'homik', 50, 300, 'zwierze');
+(3, 'chomik', 50, 300, 'zwierze');
 
 -- --------------------------------------------------------
 
